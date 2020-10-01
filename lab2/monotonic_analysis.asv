@@ -10,9 +10,8 @@ ax = gca();
 E = get_E(e_strain,e_stress);
 uts = get_uts(e_stress);
 [y_strain, y_stress] = get_yield(e_strain,e_stress);
-strain_necking = necking_strain(e_strain,e_stress);
+strain_necking = necking_strain('
 energy_necking = get_energy(e_strain,e_stress);
-reduction = get_reductoin(e_strain,e_stress);
 
 
 
